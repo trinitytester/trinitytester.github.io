@@ -1,9 +1,9 @@
-<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="trinityshop.github.io" resolutions="1x" timestamp="1552747098706">
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="trinityshop.github.io" resolutions="1x" timestamp="1552751465522">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="juvelier.css" crc="3943486506" ref="juvelier"/>
     <file name="index.css" crc="3890565225" ref="index"/>
-    <file name="wear.css" crc="3886513104" ref="wear"/>
+    <file name="wear.css" crc="468447216" ref="wear"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:wear:juvelier"/>
@@ -81,6 +81,6 @@
     <file name="u1499-7.png" crc="3996421654" ref="juvelier"/>
   </folder>
   <file name="index.html" crc="4135562831" seo="true" mt="1552320892745" redirect="true"/>
-  <file name="wear.html" crc="447025935" seo="true" mt="1552746966867" redirect="true"/>
+  <file name="wear.html" crc="216713766" seo="true" mt="1552751253718" redirect="true"/>
   <file name="juvelier.html" crc="267107819" seo="true" mt="1552384690696" redirect="true"/>
 </manifest>
