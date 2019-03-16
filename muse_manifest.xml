@@ -1,0 +1,86 @@
+<manifest alg="2" build="2017.1.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="trinityshop.github.io" resolutions="1x" timestamp="1552747098706">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="juvelier.css" crc="3943486506" ref="juvelier"/>
+    <file name="index.css" crc="3890565225" ref="index"/>
+    <file name="wear.css" crc="3886513104" ref="wear"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:wear:juvelier"/>
+    <file name="museutils.js" crc="17924269" ref="index:wear:juvelier"/>
+    <file name="whatinput.js" crc="86476730" ref="index:wear:juvelier"/>
+    <file name="museconfig.js" crc="144853533" ref="index:wear:juvelier"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3854337258" ref="index:wear:juvelier"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:wear:juvelier"/>
+    <file name="webpro.js" crc="416662029" ref="index:wear:juvelier"/>
+    <file name="musewpslideshow.js" crc="4034900702" ref="index:wear:juvelier"/>
+    <file name="jquery.museoverlay.js" crc="528673841" ref="index:wear:juvelier"/>
+    <file name="touchswipe.js" crc="432264157" ref="index:wear:juvelier"/>
+    <file name="jquery.scrolleffects.js" crc="232371266" ref="index"/>
+    <file name="require.js" crc="3861931657" ref="index:wear:juvelier"/>
+  </folder>
+  <folder name="images">
+    <file name="teal_fabric_texture_soft_fuzzy_suede_cloth_stock_by_texturex_com-d65y92w.jpg" crc="39904978" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="imgonline-com-ua-gifanimationtwopic-fho1jiwgi85a.gif" crc="4116465368" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1_looglyyh2sw9onvccxp8qq.jpg" crc="4287498019" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pc1102-rgb.jpg" crc="3920492478" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u631-4.png" crc="63618693" ref="index"/>
+    <file name="s8bxntvky4s.jpg" crc="4041757144" ref="wear:juvelier">
+      <caption webpage="wear" alt=""/>
+      <caption webpage="wear" alt=""/>
+      <caption webpage="juvelier" alt=""/>
+      <caption webpage="juvelier" alt=""/>
+    </file>
+    <file name="bxv69-vjwpe-u961-fr.jpg" crc="3891464488" ref="wear:juvelier"/>
+    <file name="6chzty3ql74-u963-fr.jpg" crc="4216551225" ref="wear:juvelier"/>
+    <file name="eye3xtjagsm-u962-fr.jpg" crc="4165112417" ref="wear:juvelier"/>
+    <file name="bxv69-vjwpe.jpg" crc="3928373074" ref="wear:juvelier">
+      <caption webpage="wear" alt=""/>
+      <caption webpage="juvelier" alt=""/>
+    </file>
+    <file name="eye3xtjagsm.jpg" crc="4290616827" ref="wear:juvelier">
+      <caption webpage="wear" alt=""/>
+      <caption webpage="juvelier" alt=""/>
+    </file>
+    <file name="6chzty3ql74.jpg" crc="119355434" ref="wear:juvelier">
+      <caption webpage="wear" alt=""/>
+      <caption webpage="juvelier" alt=""/>
+    </file>
+    <file name="u1018-7.png" crc="4147246978" ref="wear"/>
+    <file name="u1114-4.png" crc="272481483" ref="wear"/>
+    <file name="u1167-7.png" crc="3996421654" ref="wear"/>
+    <file name="xlwsdmjmjgg.jpg" crc="337611494" ref="wear">
+      <caption webpage="wear" alt=""/>
+      <caption webpage="wear" alt=""/>
+    </file>
+    <file name="w7hv7950k2s-u1183-fr.jpg" crc="195812958" ref="wear"/>
+    <file name="ixiort0mbiu-u1185-fr.jpg" crc="4030060599" ref="wear"/>
+    <file name="w_s_x4dlhkw-u1184-fr.jpg" crc="3980058039" ref="wear"/>
+    <file name="w7hv7950k2s.jpg" crc="3940055945" ref="wear">
+      <caption webpage="wear" alt=""/>
+    </file>
+    <file name="w_s_x4dlhkw.jpg" crc="4197075974" ref="wear">
+      <caption webpage="wear" alt=""/>
+    </file>
+    <file name="ixiort0mbiu.jpg" crc="4095633386" ref="wear">
+      <caption webpage="wear" alt=""/>
+    </file>
+    <file name="u1177-8.png" crc="440797915" ref="wear"/>
+    <file name="u1178-4.png" crc="3768589179" ref="wear"/>
+    <file name="u1194-7.png" crc="32903963" ref="wear"/>
+    <file name="u1482-7.png" crc="4147246978" ref="juvelier"/>
+    <file name="u1498-4.png" crc="272481483" ref="juvelier"/>
+    <file name="u1499-7.png" crc="3996421654" ref="juvelier"/>
+  </folder>
+  <file name="index.html" crc="4135562831" seo="true" mt="1552320892745" redirect="true"/>
+  <file name="wear.html" crc="447025935" seo="true" mt="1552746966867" redirect="true"/>
+  <file name="juvelier.html" crc="267107819" seo="true" mt="1552384690696" redirect="true"/>
+</manifest>

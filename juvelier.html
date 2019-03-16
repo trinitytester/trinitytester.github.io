@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="ru-RU">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2017.1.0.379"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <script type="text/javascript">
+   // Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "require.js", "juvelier.css"], "outOfDate":[]};
+</script>
+  
+  <title>juvelier</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
+  <link rel="stylesheet" type="text/css" href="css/juvelier.css?crc=3943486506" id="pagesheet"/>
+    <!--HTML Widget code-->
+  
+<style>
+.u1514 { width:200px; height:58px;}
+.u1514:hover { width:200px; height:58px;}
+</style>
+
+<style>
+.u1510 { width:200px; height:58px;}
+.u1510:hover { width:200px; height:58px;}
+</style>
+
+<style>
+.u1512 { width:200px; height:58px;}
+.u1512:hover { width:200px; height:58px;}
+</style>
+
+
+<style>
+
+.cart-buy-button{
+background: #{param_buyButtonBackground} !important;
+border: {param_buyButtonBorderPx}px solid #{param_buyButtonTextColor} !important;
+cursor: pointer;
+color: #{param_buyButtonText} !important;
+border-radius: {param_buyButtonBorderRadious} !important;
+opacity: {param_buyButtonOpacity} !important;
+box-shadow: 0 0 {param_buyButtonShadow}px rgba(0,0,0,0.5) !important;
+-moz-transition: background .5s ease-out; 
+-o-transition: background .5s ease-out; 
+transition: background .5s ease-out;
+}
+
+.bootstrap-widget .fade {
+    -webkit-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+
+.cart-buy-button:hover {
+background: #{param_buyButtonBackgroundHover} !important;
+border: {param_buyButtonBorderPx}px solid #{param_buyButtonTextColor} !important;
+color: #{param_buyButtonTextHover} !important;
+border-radius: {param_buyButtonBorderRadious} !important;
+opacity: {param_buyButtonOpacityHover} !important;
+box-shadow: 0 0 {param_buyButtonShadow}px rgba(0,0,0,0.5) !important;
+}
+
+div.noInStock > div.cart-buy-button {
+background: #{param_buyButtonBackgroundEmpty} !important;
+border: {param_buyButtonBorderPxEmpty}px solid #{param_buyButtonTextColorEmpty} !important;
+color: #{param_buyButtonTextEmpty} !important;
+border-radius: {param_buyButtonBorderRadious} !important;
+opacity: {param_buyButtonOpacityEmpty} !important;
+box-shadow: 0 0 {param_buyButtonShadowEmpty}px rgba(0,0,0,0.5) !important;
+}
+
+div.noInStock > div.cart-buy-button:hover {
+background: #{param_buyButtonBackgroundHoverEmpty} !important;
+border: {param_buyButtonBorderPxEmpty}px solid #{param_buyButtonTextColorEmpty} !important;
+color: #{param_buyButtonTextHoverEmpty} !important;
+border-radius: {param_buyButtonBorderRadious} !important;
+opacity: {param_buyButtonOpacityHoverEmpty} !important;
+box-shadow: 0 0 {param_buyButtonShadowEmpty}px rgba(0,0,0,0.5) !important;
+}
+
+.u1470 { vertical-align:middle; text-align: center; display: table-cell; cursor: pointer; color: inherit !important;}
+.bootstrap-widget .btn-primary { background-color: #FFD822 !important; color: #000000 !important; border-color: transparent !important;}
+.bootstrap-widget .popover { box-shadow: 0 0 0px hsla(0, 0%, 0%, 0.7) !important; padding: 0px !important;}
+.bootstrap-widget .popover-content { box-shadow: 0 0 0px hsla(0, 0%, 0%, 0.7) !important; background: #FFFFFF !important; border-radius: 3px!important; color: #000000 !important; padding: 10px 10px !important; position: relative;border: 0px solid #FFFFFF!important;}
+.bootstrap-widget .popover.bottom .arrow {z-index: 999999999;top: -10px !important;border-bottom-color: #FFFFFF !important;}
+.bootstrap-widget .popover.bottom { position: fixed; border-radius: 3px !important;}
+.cart .cart-item-price { color: #000000 !important;}
+.cart .cart-item-multiply-sign { color: #000000 !important;}
+.cart a.cart-item-remove { color: #000000 !important;}
+.cart .cart-message-error { color: #000000 !important; text-align: center;}
+.cart .cart-message { color: #000000 !important; text-align: center;}
+.cart .cart-purchase-button { border-radius: 3 !important;}
+.cart {width: 240px !important;}
+.cart .cart-item-name {text-overflow: ellipsis; width: calc(100% - 40%) !important;}
+
+.cart-icon {
+background-image: url({param_cartimage}) !important;
+background-repeat: no-repeat !important;
+background-size: 16px;
+text-align: center;
+padding-left: 28px;
+text-decoration: none!important;
+}
+
+.cart .cart-send-order-button {
+border-radius: 3 !important;
+}
+
+</style>
+
+
+ </head>
+ <body>
+
+  <div class="clearfix borderbox" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu1521-4"><!-- column -->
+    <a class="nonblock nontext clearfix colelem" id="u1521-4" href="index.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p><span id="u1521">На Главную</span></p></a>
+    <div class="PamphletWidget clearfix allow_click_through widget_invisible colelem" id="pamphletu1471" data-visibility="changed" style="visibility:hidden" data-islightbox="true"><!-- none box -->
+     <div class="clearfix grpelem" id="pu1474"><!-- group -->
+      <div class="ThumbGroup clearfix grpelem" data-col-pos="0" id="u1474"><!-- none box -->
+       <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u1475popup">
+        <div class="Thumb popup_element museBGSize" data-col-pos="0" id="u1475"><!-- simple frame --></div>
+       </div>
+      </div>
+      <div class="popup_anchor allow_click_through grpelem" data-col-pos="1" id="u1480popup" data-lightbox="true">
+       <div class="ContainerGroup clearfix" data-col-pos="1" id="u1480"><!-- stack box -->
+        <div class="Container clearfix grpelem" data-col-pos="0" id="u1481"><!-- group -->
+         <div class="clearfix grpelem" id="ppamphletu1483"><!-- column -->
+          <div class="PamphletWidget clearfix allow_click_through colelem" id="pamphletu1483" data-visibility="changed" style="visibility:hidden"><!-- none box -->
+           <div class="ThumbGroup clearfix grpelem" data-col-pos="0" id="u1484"><!-- none box -->
+            <div class="clearfix grpelem" id="pu1486"><!-- column -->
+             <div class="popup_anchor allow_click_through colelem" data-col-pos="0" id="u1486popup">
+              <div class="Thumb popup_element museBGSize" data-col-pos="0" id="u1486"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through colelem" data-col-pos="2" id="u1485popup">
+              <div class="Thumb popup_element museBGSize" data-col-pos="2" id="u1485"><!-- simple frame --></div>
+             </div>
+             <div class="popup_anchor allow_click_through colelem" data-col-pos="1" id="u1487popup">
+              <div class="Thumb popup_element museBGSize" data-col-pos="1" id="u1487"><!-- simple frame --></div>
+             </div>
+            </div>
+           </div>
+           <div class="popup_anchor allow_click_through grpelem" data-col-pos="1" id="u1494popup">
+            <div class="ContainerGroup clearfix" data-col-pos="1" id="u1494"><!-- stack box -->
+             <div class="Container museBGSize grpelem" data-col-pos="0" id="u1496"><!-- simple frame --></div>
+             <div class="Container invi museBGSize grpelem" data-col-pos="1" id="u1497"><!-- simple frame --></div>
+             <div class="Container invi museBGSize grpelem" data-col-pos="2" id="u1495"><!-- simple frame --></div>
+            </div>
+           </div>
+          </div>
+          <img class="colelem" id="u1482-7" alt="Великолепные брюки с фалдой прекрасного кроя! Брюки на широком поясе, с карманами. Потайная молния сзади, а также резинки в поясе по бокам для идеальной посадки! По низу штанин две кнопки для регулировки ширины! Невероятно легкая модель интересного кроя! " src="images/u1482-7.png?crc=4147246978" data-image-width="319"/><!-- rasterized frame -->
+         </div>
+         <div class="clearfix grpelem" id="pu1498-4"><!-- column -->
+          <img class="colelem" id="u1498-4" alt="Брюки с фалдой (кофе)" src="images/u1498-4.png?crc=272481483" data-image-width="230"/><!-- rasterized frame -->
+          <img class="colelem" id="u1499-7" alt="ЦЕНА: 4000 руб." src="images/u1499-7.png?crc=3996421654" data-image-width="142"/><!-- rasterized frame -->
+          <div class="PamphletWidget clearfix allow_click_through colelem" id="pamphletu1500" data-visibility="changed" style="visibility:hidden"><!-- none box -->
+           <div class="clearfix grpelem" id="pu1501"><!-- column -->
+            <div class="ThumbGroup clearfix colelem" data-col-pos="0" id="u1501"><!-- none box -->
+             <div class="popup_anchor allow_click_through grpelem" data-col-pos="2" id="u1504popup">
+              <div class="Thumb popup_element rounded-corners clearfix" data-col-pos="2" id="u1504"><!-- group -->
+               <div class="clearfix grpelem" id="u1505-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+                <p>XS</p>
+               </div>
+              </div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u1506popup">
+              <div class="Thumb popup_element rounded-corners clearfix" data-col-pos="0" id="u1506"><!-- group -->
+               <div class="rounded-corners clearfix grpelem" id="u1507-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+                <p>S</p>
+               </div>
+              </div>
+             </div>
+             <div class="popup_anchor allow_click_through grpelem" data-col-pos="1" id="u1502popup">
+              <div class="Thumb popup_element rounded-corners clearfix" data-col-pos="1" id="u1502"><!-- group -->
+               <div class="clearfix grpelem" id="u1503-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+                <p>M</p>
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="popup_anchor allow_click_through colelem" data-col-pos="1" id="u1508popup">
+             <div class="ContainerGroup clearfix" data-col-pos="1" id="u1508"><!-- stack box -->
+              <div class="Container clearfix grpelem" data-col-pos="0" id="u1513"><!-- group -->
+               <div class="size_fixed grpelem" id="u1514" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+                
+ <div href="#" class="u1514 cart-buy-button" data-name="Брюки с фалдой (кофе) S" data-price="4000" data-instock="yes" style="text-align: center;display: table-cell;vertical-align: middle;">
+ Добавить в корзину  
+ </div>
+
+               </div>
+              </div>
+              <div class="Container invi clearfix grpelem" data-col-pos="1" id="u1509"><!-- group -->
+               <div class="size_fixed grpelem" id="u1510" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+                
+ <div href="#" class="u1510 cart-buy-button" data-name="Брюки с фалдой (кофе) M" data-price="4000" data-instock="yes" style="text-align: center;display: table-cell;vertical-align: middle;">
+ Добавить в корзину  
+ </div>
+
+               </div>
+              </div>
+              <div class="Container invi clearfix grpelem" data-col-pos="2" id="u1511"><!-- group -->
+               <div class="size_fixed grpelem" id="u1512" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+                
+ <div href="#" class="u1512 cart-buy-button" data-name="Брюки с фалдой (кофе) XS" data-price="4000" data-instock="yes" style="text-align: center;display: table-cell;vertical-align: middle;">
+ Добавить в корзину  
+ </div>
+
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor allow_click_through grpelem" data-col-pos="4" id="u1478popup">
+       <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" data-col-pos="4" id="u1478"><!-- group -->
+        <div class="clearfix grpelem" id="u1479-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p>x</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="clearfix grpelem" id="u848-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+    <p>TRINITY украшения</p>
+   </div>
+   <div class="size_fixed grpelem" id="u1470" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+    
+<a href="#" class="u1470 cart-button" style="text-align: center;display: table-cell;vertical-align: middle;text-decoration: none!important;width:130px; height:50px;">
+  <span class="{param_carticon}" style="text-decoration: none!important;"></span>
+  <span class="cart-button-quantity">0</span>
+  <span class="cart-button-label">items</span>
+</a>
+
+   </div>
+   <div class="verticalspacer" data-offset-top="319" data-content-above-spacer="319" data-content-below-spacer="180" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/s8bxntvky4s.jpg?crc=4041757144" alt=""/>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide weather to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#pamphletu1483', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu1483 */
+Muse.Utils.initWidget('#pamphletu1500', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:0,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu1500 */
+Muse.Utils.initWidget('#pamphletu1471', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu1471 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=3861931657" type="text/javascript" async data-main="scripts/museconfig.js?crc=144853533" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+<script src="//cart.creatura.club/v5/cart5.js"></script>
+<script src="//cart.creatura.club/v5/vendor/jquery-mask.js"></script>
+
+<script>
+var systemYandex,yandex,google,customTranslate,paypal,systemBankDetails, robokassa, payonline, yandexkassa, unifiedwallet, webpay, privat24 = false;
+</script>
+
+<script>
+var customTranslateOn = false;
+var customTranslate1 = {
+addressFieldLabel : " ",
+addressFieldPlaceholder : " ",
+privacyPolicyText : " ",
+buyButtonTitle : ' ',
+cartButtonLabelOne : " ",
+cartButtonLabelFew : " ",
+cartButtonLabelMany : " ",
+emptyCart : ' ',
+emailFieldLabel : " ",
+emailFieldPlaceholder : " ",
+nameFieldLabel : ' ',
+nameFieldPlaceholder : ' ',
+orderSent : ' ',
+phoneFieldLabel : " ",
+phoneFieldPlaceholder : " ",
+purchaseButtonTitle : ' ',
+addToCartText: ' ',
+payTextButton: ' ',
+}
+var customTranslate2 = {
+paysystemFieldLabel: ' ',
+systemNoInStockText: ' ',
+deliveryFieldLabel: ' ',
+systemHomeText: ' ',
+systemYandexText: ' ',
+systemPayPalText: ' ',
+systemBankDetails: ' ',
+systemRobokassa: ' ',
+systemSberbank: ' ',
+systemPayonline: ' ',
+systemWebMoney: ' ',
+systemSkrill: ' ',
+systemStripe: ' ',
+systemAuthorizenet: ' ',
+systemtwocheckout: ' ',
+systemFirstData: ' ',
+systemAmazonPayments: ' ',
+systemYandexkassa: ' ',
+systemUnifiedWallet: ' ',
+systemPickupText: ' ',
+systemPostText: ' ',
+systemCourierText: ' ',
+systemBirdText: ' ',
+systemPostmanText: ' ',
+systemWebPay: ' ',
+systemPrivat24: ' ',
+}
+var customTranslate3 = $.extend(customTranslate1, customTranslate2);
+var customTranslate = customTranslateOn && customTranslate3;
+var customTranslate2 = {
+paysystemFieldLabel: ' ',
+deliveryFieldLabel: ' ',
+systemHomeText: ' ',
+systemYandexText: ' ',
+systemPayPalText: ' ',
+systemBankDetails: ' ',
+systemRobokassa: ' ',
+systemSberbank: ' ',
+systemPayonline: ' ',
+systemYandexkassa: ' ',
+systemUnifiedWallet: ' ',
+systemPickupText: ' ',
+systemPostText: ' ',
+systemCourierText: ' ',
+systemBirdText: ' ',
+systemPostmanText: ' ',
+systemWebPay: ' ',
+systemPrivat24: ' ',
+}
+var customTranslate3 = $.extend(customTranslate1, customTranslate2);
+var customTranslate = customTranslateOn && customTranslate3;
+
+var paymentSystems = {
+show: false,
+items: [
+{
+show: true,
+id: 'home',
+text: (customTranslate && customTranslate.systemHomeText) ? customTranslate.systemHomeText : false,
+details: ''
+},
+
+{
+show: false,
+id: 'paypal',
+text: (customTranslate && customTranslate.systemPayPalText) ? customTranslate.systemPayPalText : false,
+details: 'example@google.com'
+},
+
+{
+show: false,
+id: 'yandex',
+text: (customTranslate && customTranslate.systemYandexText) ? customTranslate.systemYandexText : false,
+details: '410012517333350'
+},
+
+{
+show: false,
+id: 'bankDetails',
+text: (customTranslate && customTranslate.systemBankDetails) ? customTranslate.systemBankDetails : false,
+details: ' '
+},
+
+{
+show: false,
+id: 'robokassa',
+text: (customTranslate && customTranslate.systemRobokassa) ? customTranslate.systemRobokassa : false,
+details: ''
+},
+
+{
+show: false,
+id: 'sberbank',
+text: (customTranslate && customTranslate.systemSberbank) ? customTranslate.systemSberbank: false,
+details: ''
+},
+
+{
+show: false,
+id: 'payonline',
+text: (customTranslate && customTranslate.systemPayonline) ? customTranslate.systemPayonline : false,
+details: ''
+},
+
+{
+show: false,
+id: 'webmoney',
+text: (customTranslate && customTranslate.systemWebMoney) ? customTranslate.systemWebMoney : false,
+details: ''
+},
+
+{
+show: false,
+id: 'skrill',
+text: (customTranslate && customTranslate.systemSkrill) ? customTranslate.systemSkrill : false,
+details: ''
+},
+
+{
+show: false,
+id: 'stripe',
+text: (customTranslate && customTranslate.systemStripe) ? customTranslate.systemStripe : false,
+details: ''
+},
+
+{
+show: false,
+id: 'authorizenet',
+text: (customTranslate && customTranslate.systemAuthorizenet) ? customTranslate.systemAuthorizenet : false,
+details: ''
+},
+
+{
+show: false,
+id: 'twocheckout',
+text: (customTranslate && customTranslate.systemtwocheckout) ? customTranslate.systemtwocheckout : false,
+details: ''
+},
+
+{
+show: false,
+id: 'firstdata',
+text: (customTranslate && customTranslate.systemFirstData) ? customTranslate.systemFirstData : false,
+details: ''
+},
+
+{
+show: false,
+id: 'amazonpayments',
+text: (customTranslate && customTranslate.systemAmazonPayments) ? customTranslate.systemAmazonPayments : false,
+details: ''
+},
+
+{
+show: false,
+id: 'yandexkassa',
+text: (customTranslate && customTranslate.systemYandexkassa) ? customTranslate.systemYandexkassa : false,
+details: ''
+},
+
+{
+show: false,
+id: 'unifiedwallet',
+text: (customTranslate && customTranslate.systemUnifiedWallet) ? customTranslate.systemUnifiedWallet : false,
+details: ''
+}, 
+
+{
+show: false,
+id: 'webpay',
+text: (customTranslate && customTranslate.systemWebPay) ? customTranslate.systemWebPay : false,
+details: ''
+},
+
+{
+show: false,
+id: 'privat24',
+text: (customTranslate && customTranslate.systemPrivat24) ? customTranslate.systemPrivat24 : false,
+details: ''
+}   
+]
+}
+
+var deliveryInternals = {
+show: false, 
+items: [
+{show: false, name: (customTranslate && customTranslate.systemPickupText) ? customTranslate.systemPickupText : "", price: 0}, 
+{show: false, name: (customTranslate && customTranslate.systemPostText) ? customTranslate.systemPostText : "", price: 0}, 
+{show: false, name: (customTranslate && customTranslate.systemCourierText) ? customTranslate.systemCourierText : "", price: 0},
+{show: false, name: (customTranslate && customTranslate.systemBirdText) ? customTranslate.systemBirdText : "", price: 0},
+{show: false, name: (customTranslate && customTranslate.systemPostmanText) ? customTranslate.systemPostmanText : "", price: 0},
+], 
+
+recalculateTotalSum: false,
+}
+
+$(document).ready(function(){
+$("#cart-phone").mask("+9 (999) 999 99 99");
+});
+
+cart5.initialize({
+emailOrdersTo  : 'info@muse.creatura.club',
+emailOrdersFrom: 'order@cart.creatura.club',
+emailClientTo  : true,
+language       : 'russian',
+basketAnimation: true,
+currency       : 'Руб',
+paymentSystems : paymentSystems,
+requireName    : true,
+namesRequired    : false,
+requirePhone   : true,
+telephoneRequired    : true,
+requireEmail   : true,
+emailRequired    : true,
+phoneMask      : '+9 (999) 999 99 99',
+requireAddress : true,
+addressiRequired    : false,
+deliveryInternals: deliveryInternals,
+yandex         : yandex || false,
+google         : google || false,
+redirect       : 'https://example.com/thanks.html',
+hideOnClick    : true,
+positionPopover: 'center',
+customTranslate: customTranslate || false,
+minSum         : 0,
+minSumOn       : false,
+false          : 'http://muse.creatura.club/',
+aboutShop: " ",
+privacyEnable : false,
+chequeEnable : false,
+})
+</script>
+
+
+   </body>
+</html>
